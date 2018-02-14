@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a RouteEditor 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexFlow": "row nowrap",
+      "margin": "auto",
+      "marginTop": "100px",
+      "maxWidth": "1200px",
+    }
+  }
+>
+  <styled.div>
+    <SortableDotList
+      dots={Array []}
+      onAdd={[Function]}
+      onDelete={[Function]}
+      onSort={[Function]}
+    />
+  </styled.div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "960px",
+      }
+    }
+  >
+    <Map
+      dots={Array []}
+      onChange={[Function]}
+    />
+  </div>
+</div>
+`;

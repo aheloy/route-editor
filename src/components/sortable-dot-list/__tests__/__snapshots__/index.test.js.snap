@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a SortableDotList 1`] = `
+<div>
+  <styled.input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Новая точка маршрута"
+    type="text"
+    value=""
+  />
+  <SortableList
+    items={
+      Array [
+        Object {
+          "text": "1",
+        },
+        Object {
+          "text": "2",
+        },
+        Object {
+          "text": "3",
+        },
+      ]
+    }
+    onDelete={[Function]}
+    onSort={[Function]}
+  />
+</div>
+`;

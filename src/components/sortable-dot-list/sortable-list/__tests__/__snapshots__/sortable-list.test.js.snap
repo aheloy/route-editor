@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a SortableList 1`] = `
+<styled.ul>
+  <Sortable
+    items={
+      Array [
+        Object {
+          "text": "1",
+        },
+        Object {
+          "text": "2",
+        },
+        Object {
+          "text": "3",
+        },
+      ]
+    }
+    key="0"
+    onDelete={[Function]}
+    onSortItems={[Function]}
+    sortId={0}
+  >
+    1
+  </Sortable>
+  <Sortable
+    items={
+      Array [
+        Object {
+          "text": "1",
+        },
+        Object {
+          "text": "2",
+        },
+        Object {
+          "text": "3",
+        },
+      ]
+    }
+    key="1"
+    onDelete={[Function]}
+    onSortItems={[Function]}
+    sortId={1}
+  >
+    2
+  </Sortable>
+  <Sortable
+    items={
+      Array [
+        Object {
+          "text": "1",
+        },
+        Object {
+          "text": "2",
+        },
+        Object {
+          "text": "3",
+        },
+      ]
+    }
+    key="2"
+    onDelete={[Function]}
+    onSortItems={[Function]}
+    sortId={2}
+  >
+    3
+  </Sortable>
+</styled.ul>
+`;
